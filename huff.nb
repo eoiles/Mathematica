@@ -1,0 +1,112 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3720,        102]
+NotebookOptionsPosition[      2881,         81]
+NotebookOutlinePosition[      3455,         99]
+CellTagsIndexPosition[      3412,         96]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"SetDirectory", "[", "\"\<C:\\\\Users\\\\stary\\\\Desktop\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"a", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", 
+     RowBox[{"\"\<a.txt\>\"", ",", "\"\<String\>\""}], "]"}], "//", 
+    "Characters"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"l", "=", 
+  RowBox[{"Length", "[", 
+   RowBox[{"DeleteDuplicates", "[", "a", "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"d", "=", 
+    RowBox[{"Association", "@", 
+     RowBox[{"MapThread", "[", 
+      RowBox[{"Rule", ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"First", "/@", 
+          RowBox[{"Tally", "[", "a", "]"}]}], ",", 
+         RowBox[{
+          RowBox[{"Range", "[", "l", "]"}], "-", "1"}]}], "}"}]}], "]"}]}]}], 
+   ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", 
+   RowBox[{"IntegerDigits", "[", 
+    RowBox[{
+     RowBox[{"FromDigits", "[", 
+      RowBox[{
+       RowBox[{"d", "/@", "a"}], ",", "55"}], "]"}], ",", "256"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<a\>\"", ",", "data", ",", "\"\<Byte\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.8021062704254465`*^9, 3.8021065436667247`*^9}, {
+  3.802106574354737*^9, 3.802106651418869*^9}},
+ CellLabel->"In[75]:=",ExpressionUUID->"1b331588-248f-4d05-9bed-885def460528"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\stary\\\\Desktop\"\>"], "Output",
+ CellChangeTimes->{{3.80210640213605*^9, 3.8021064285334654`*^9}, {
+  3.8021064608042374`*^9, 3.8021065344214363`*^9}, {3.802106588710474*^9, 
+  3.8021066519005423`*^9}},
+ CellLabel->"Out[75]=",ExpressionUUID->"9348f6b6-e38a-49cd-9258-32d76e650613"],
+
+Cell[BoxData["55"], "Output",
+ CellChangeTimes->{{3.80210640213605*^9, 3.8021064285334654`*^9}, {
+  3.8021064608042374`*^9, 3.8021065344214363`*^9}, {3.802106588710474*^9, 
+  3.802106651905553*^9}},
+ CellLabel->"Out[77]=",ExpressionUUID->"b9b5f39c-a42e-4a1e-a954-fae1892dca0c"],
+
+Cell[BoxData["\<\"a\"\>"], "Output",
+ CellChangeTimes->{{3.80210640213605*^9, 3.8021064285334654`*^9}, {
+  3.8021064608042374`*^9, 3.8021065344214363`*^9}, {3.802106588710474*^9, 
+  3.802106651959416*^9}},
+ CellLabel->"Out[80]=",ExpressionUUID->"7fd714c9-c9c4-44fd-9456-7ef79f9c8760"]
+}, Open  ]]
+},
+WindowSize->{1161, 775},
+WindowMargins->{{359, Automatic}, {26, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 14, 2020)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "AR.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"f87f97c2-3339-4fc3-b1c8-f3fd20f70655"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1399, 38, 228, "Input",ExpressionUUID->"1b331588-248f-4d05-9bed-885def460528"],
+Cell[1982, 62, 316, 4, 47, "Output",ExpressionUUID->"9348f6b6-e38a-49cd-9258-32d76e650613"],
+Cell[2301, 68, 277, 4, 47, "Output",ExpressionUUID->"b9b5f39c-a42e-4a1e-a954-fae1892dca0c"],
+Cell[2581, 74, 284, 4, 47, "Output",ExpressionUUID->"7fd714c9-c9c4-44fd-9456-7ef79f9c8760"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

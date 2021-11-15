@@ -1,0 +1,94 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3070,         84]
+NotebookOptionsPosition[      2543,         68]
+NotebookOutlinePosition[      3117,         86]
+CellTagsIndexPosition[      3074,         83]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"Clear", "[", 
+  RowBox[{"f", ",", "g"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Image3D", "[", 
+      RowBox[{
+       RowBox[{"RandomReal", "[", 
+        RowBox[{"1", ",", 
+         RowBox[{"{", 
+          RowBox[{"128", ",", "128", ",", "128", ",", "4"}], "}"}]}], "]"}], 
+       ",", 
+       RowBox[{"ColorSpace", "\[Rule]", "\"\<RGB\>\""}]}], "]"}], ",", "x"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"g", "[", "x_", "]"}], ":=", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Image", "[", 
+       RowBox[{
+        RowBox[{"RandomReal", "[", 
+         RowBox[{"1", ",", 
+          RowBox[{"{", 
+           RowBox[{"128", ",", "128", ",", "4"}], "}"}]}], "]"}], ",", 
+        RowBox[{"ColorSpace", "\[Rule]", "\"\<RGB\>\""}]}], "]"}], ",", "x"}],
+      "]"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<C:\\\\Users\\\\stary\\\\Desktop\\\\testfile\\\\video.mp4\>\"", ",", 
+   RowBox[{"f", "[", "128", "]"}], ",", 
+   RowBox[{"FrameRate", "\[Rule]", "8"}]}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.8153896809543037`*^9, 3.815389757453554*^9}, 
+   3.8153898008712425`*^9, {3.8153899020599384`*^9, 3.815389919482879*^9}, {
+   3.815389958403319*^9, 3.815389985553178*^9}, {3.815390043148682*^9, 
+   3.8153900896440973`*^9}, {3.8153903101126013`*^9, 
+   3.8153903137738137`*^9}, {3.8153903786530895`*^9, 3.815390425456728*^9}, {
+   3.815390499116499*^9, 3.815390590226077*^9}, {3.815390655449129*^9, 
+   3.8153907029516726`*^9}, {3.81539081515327*^9, 3.815390840193427*^9}, {
+   3.8153908794202595`*^9, 3.8153908795452657`*^9}, {3.815390964445524*^9, 
+   3.815390971006562*^9}, {3.8153910372590885`*^9, 3.8153910376496887`*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"92ba097e-0727-4779-81bb-e506d3916ccc"]
+},
+WindowSize->{1098, 710},
+WindowMargins->{{Automatic, 92}, {-51, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 14, 2020)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "AR.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8b6430ec-9863-4783-9772-e726e48751ee"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1981, 46, 198, "Input",ExpressionUUID->"92ba097e-0727-4779-81bb-e506d3916ccc"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

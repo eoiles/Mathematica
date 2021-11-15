@@ -1,0 +1,405 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16953,        397]
+NotebookOptionsPosition[     16475,        380]
+NotebookOutlinePosition[     16869,        396]
+CellTagsIndexPosition[     16826,        393]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"a", "=", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"\:5f3a\:5ea6", "\[Rule]", " ", "\:653b\:51fb"}], ",", 
+      RowBox[{"\:5f3a\:5ea6", "\[Rule]", " ", "\:575a\:97e7\:56de\:590d"}], 
+      ",", 
+      RowBox[{"\:5f3a\:5ea6", "\[Rule]", " ", "\:575a\:97e7"}], ",", 
+      RowBox[{"\:575a\:97e7", "\[Rule]", "\:6700\:5927\:751f\:547d"}], ",", 
+      RowBox[{"\:575a\:97e7", "\[Rule]", "\:51cf\:4f24"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"\:575a\:97e7\:56de\:590d", "\[Rule]", "\:51cf\:4f24"}], " ", 
+      ",", 
+      RowBox[{"\:575a\:97e7\:56de\:590d", "\[Rule]", "\:56de\:8840"}], ",", 
+      RowBox[{"\:51cf\:4f24", "\[Rule]", " ", "\:72ec\:7acb\:51cf\:4f24"}], 
+      ",", 
+      RowBox[{"\:51cf\:4f24", "\[Rule]", " ", "\:666e\:901a\:51cf\:4f24"}], 
+      " ", ",", "\[IndentingNewLine]", 
+      RowBox[{
+      "\:72ec\:7acb\:51cf\:4f24", "\[Rule]", " ", 
+       "\:7cbe\:82f1\:8fd1\:8fdc\:51cf\:4f24"}], ",", 
+      RowBox[{"\:666e\:901a\:51cf\:4f24", "\[Rule]", " ", "\:62a4\:7532"}], 
+      ",", 
+      RowBox[{"\:666e\:901a\:51cf\:4f24", "\[Rule]", "\:6297\:6027"}], ",", 
+      RowBox[{"\:6297\:6027", "\[Rule]", " ", "\:5168\:6297"}], ",", 
+      RowBox[{"\:6297\:6027", "\[Rule]", " ", "\:5355\:6297"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"\:62a4\:7532", "\[Rule]", " ", "\:654f\:6377"}], ",", 
+      RowBox[{"\:56de\:8840", "\[Rule]", " ", "\:51fb\:56de"}], ",", 
+      RowBox[{"\:56de\:8840", "\[Rule]", "\:7403\:62fe\:7403\:56de"}], ",", 
+      RowBox[{
+      "\:6700\:5927\:751f\:547d", "\[Rule]", " ", 
+       "\:767e\:5206\:6bd4\:751f\:547d"}], ",", 
+      RowBox[{"\:6700\:5927\:751f\:547d", "\[Rule]", " ", "\:4f53\:80fd"}]}], 
+     "\[IndentingNewLine]", "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Graph", "[", 
+  RowBox[{"a", ",", 
+   RowBox[{"VertexLabels", "\[Rule]", "\"\<Name\>\""}], ",", 
+   RowBox[{"VertexLabelStyle", "->", 
+    RowBox[{"Directive", "[", 
+     RowBox[{"White", ",", "Italic", ",", "20"}], "]"}]}], ",", 
+   RowBox[{"EdgeStyle", "\[Rule]", "White"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.820479543536018*^9, 3.8204795473073807`*^9}, {
+   3.8204795774298763`*^9, 3.820479707676515*^9}, {3.820479746301061*^9, 
+   3.820479886266076*^9}, {3.8204799293266745`*^9, 3.8204801521884346`*^9}, {
+   3.8204802107188272`*^9, 3.820480233210124*^9}, {3.820480294683863*^9, 
+   3.8204803856573343`*^9}, {3.8204804375456085`*^9, 3.820480454258318*^9}, {
+   3.820480490203107*^9, 3.8204806155373163`*^9}, {3.8204806564442115`*^9, 
+   3.82048072286294*^9}, {3.8204807753568716`*^9, 3.8204808015594378`*^9}, {
+   3.820480835756023*^9, 3.8204808456947727`*^9}, {3.8204809343445625`*^9, 
+   3.82048095783802*^9}, {3.820481797285267*^9, 3.820481882902161*^9}, {
+   3.8204819159360332`*^9, 3.8204819298704057`*^9}, {3.8204819611722856`*^9, 
+   3.8204819879778495`*^9}, {3.820482019798235*^9, 3.820482028941119*^9}, 
+   3.8204821019582033`*^9},
+ CellLabel->"In[82]:=",ExpressionUUID->"9c752a43-9052-42fb-a8c7-3a42b9093d3b"],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{$CellContext`\:5f3a\:5ea6, $CellContext`\:653b\:51fb, \
+$CellContext`\:575a\:97e7\:56de\:590d, $CellContext`\:575a\:97e7, \
+$CellContext`\:6700\:5927\:751f\:547d, $CellContext`\:51cf\:4f24, \
+$CellContext`\:56de\:8840, $CellContext`\:72ec\:7acb\:51cf\:4f24, \
+$CellContext`\:666e\:901a\:51cf\:4f24, $CellContext`\:7cbe\:82f1\:8fd1\:8fdc\
+\:51cf\:4f24, $CellContext`\:62a4\:7532, $CellContext`\:6297\:6027, \
+$CellContext`\:5168\:6297, $CellContext`\:5355\:6297, $CellContext`\:654f\
+\:6377, $CellContext`\:51fb\:56de, $CellContext`\:7403\:62fe\:7403\:56de, \
+$CellContext`\:767e\:5206\:6bd4\:751f\:547d, $CellContext`\:4f53\:80fd}, {{{1,
+        2}, {1, 3}, {1, 4}, {4, 5}, {4, 6}, {3, 6}, {3, 7}, {6, 8}, {6, 9}, {
+       8, 10}, {9, 11}, {9, 12}, {12, 13}, {12, 14}, {11, 15}, {7, 16}, {7, 
+       17}, {5, 18}, {5, 19}}, Null}, {EdgeStyle -> {
+         GrayLevel[1]}, VertexLabels -> {"Name"}, VertexLabelStyle -> {
+         Directive[
+          GrayLevel[1], Italic, 20]}}]]}, 
+    TagBox[GraphicsGroupBox[{
+       {GrayLevel[1], Opacity[0.7], Arrowheads[Medium], 
+        ArrowBox[{{0., 5.}, {-1., 4.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 5.}, {0., 4.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 5.}, {1., 4.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 4.}, {0., 3.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 4.}, {-2., 3.}}, 0.043048128342245986`], 
+        ArrowBox[{{1., 4.}, {1., 3.}}, 0.043048128342245986`], 
+        ArrowBox[{{1., 4.}, {0., 3.}}, 0.043048128342245986`], 
+        ArrowBox[{{1., 3.}, {1., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{1., 3.}, {2., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 3.}, {-1., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 3.}, {0., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{-2., 3.}, {-3., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{-2., 3.}, {-2., 2.}}, 0.043048128342245986`], 
+        ArrowBox[{{-1., 2.}, {-1., 1.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 2.}, {1., 1.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 2.}, {0., 1.}}, 0.043048128342245986`], 
+        ArrowBox[{{1., 1.}, {1., 0.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 1.}, {-1., 0.}}, 0.043048128342245986`], 
+        ArrowBox[{{0., 1.}, {0., 0.}}, 0.043048128342245986`]}, 
+       {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[
+        0.7]}], {DiskBox[{0., 5.}, 0.043048128342245986], InsetBox[
+          StyleBox["\:5f3a\:5ea6",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 5.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-1., 4.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:653b\:51fb",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-0.956951871657754, 4.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{0., 4.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:575a\:97e7\:56de\:590d",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 4.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{1., 4.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:575a\:97e7",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {1.043048128342246, 4.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{1., 3.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:6700\:5927\:751f\:547d",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {1.043048128342246, 3.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{0., 3.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:51cf\:4f24",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 3.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-2., 3.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:56de\:8840",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-1.956951871657754, 3.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-1., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:72ec\:7acb\:51cf\:4f24",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-0.956951871657754, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{0., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:666e\:901a\:51cf\:4f24",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-1., 1.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:7cbe\:82f1\:8fd1\:8fdc\:51cf\:4f24",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-0.956951871657754, 1.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{1., 1.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:62a4\:7532",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {1.043048128342246, 1.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{0., 1.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:6297\:6027",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 1.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-1., 0.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:5168\:6297",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-0.956951871657754, 0.043048128342245986}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{0., 0.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:5355\:6297",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {0.043048128342245986, 0.043048128342245986}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{1., 0.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:654f\:6377",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {1.043048128342246, 0.043048128342245986}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-3., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:51fb\:56de",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-2.956951871657754, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{-2., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:7403\:62fe\:7403\:56de",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {-1.956951871657754, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{1., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:767e\:5206\:6bd4\:751f\:547d",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {1.043048128342246, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {DiskBox[{2., 2.}, 0.043048128342245986], 
+         InsetBox[
+          StyleBox["\:4f53\:80fd",
+           StripOnInput->False,
+           LineColor->GrayLevel[1],
+           FrontFaceColor->GrayLevel[1],
+           BackFaceColor->GrayLevel[1],
+           GraphicsColor->GrayLevel[1],
+           FontSize->20,
+           FontSlant->Italic,
+           FontColor->GrayLevel[1]], 
+          Offset[{2, 2}, {2.043048128342246, 2.043048128342246}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}}}],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FormatType->TraditionalForm,
+  FrameTicks->None,
+  ImageSize->{948., Automatic}]], "Output",
+ CellChangeTimes->{3.8204818531755667`*^9, 3.820482102436923*^9},
+ CellLabel->"Out[83]=",ExpressionUUID->"11873fb8-20b1-48af-9d49-16c0c15dedec"]
+}, Open  ]]
+},
+WindowSize->{1904, 1029},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 14, 2020)",
+StyleDefinitions->"AR.nb",
+ExpressionUUID->"236e6199-cc42-450a-8b11-b3885f1b5094"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3091, 57, 258, "Input",ExpressionUUID->"9c752a43-9052-42fb-a8c7-3a42b9093d3b"],
+Cell[3674, 81, 12785, 296, 951, "Output",ExpressionUUID->"11873fb8-20b1-48af-9d49-16c0c15dedec"]
+}, Open  ]]
+}
+]
+*)
+
